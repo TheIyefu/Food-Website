@@ -118,6 +118,7 @@ h1{
 .loaddiv{
     width: 100%;
     text-align: center;
+    margin: 4vw;
 }
 #load{
     background-color: #fb6966;
@@ -128,7 +129,6 @@ h1{
     padding: 1em 4em;
     border-radius: 1.5em;
     text-align: center;
-    margin: 4vw;
 }
 #load:hover{
     background: none;
