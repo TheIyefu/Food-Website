@@ -128,7 +128,7 @@ h1{
 .loaddiv{
     width: 100%;
     text-align: center;
-    margin: 4vw;
+    margin: 4vw 0vw;
 }
 #load{
     background-color: #fb6966;
