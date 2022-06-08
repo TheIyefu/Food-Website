@@ -65,6 +65,16 @@ body{
 .toggle-button:hover{
     color: #a1a1a1;
 }
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color:rgba(0, 0, 0, 0.7);
+    display: none;
+}
 .container{
     width: 90%;
     margin: auto;
@@ -196,16 +206,6 @@ h1{
     color: #fb6966;
     margin-left: -2vw;
     margin-right: 1vw;
-}
-#overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 5;
-    background-color:rgba(0, 0, 0, 0.7);
-    display: none;
 }
 @media(max-width: 950px){
    .toggle-button{
